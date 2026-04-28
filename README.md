@@ -114,6 +114,9 @@ cd ros2_calib
 python -m venv .venv
 source ./venv/bin/activate
 
+# Install system dependencies
+xargs -a system_requirements.txt sudo apt install -y
+
 # Install in development mode
 python -m pip install .
 ```

@@ -1,0 +1,4 @@
+libxcb-xinerama0
+libxcb-cursor0
+libxkbcommon-x11-0
+libxcb-keysyms1
